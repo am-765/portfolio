@@ -3,7 +3,7 @@
     <Header/>
       <div class="works__card card">
         <article class="card__card">
-          <a href="https://www.s-groove.co.jp/freshers/#/" target="_blank" class="card__link">
+          <router-link to="/worksDetail01" class="card__link">
             <div class="card__imgWrap">
               <img src="../assets/imgs/img-s-groove.jpg" alt="" class="card__img" />
             </div>
@@ -11,40 +11,10 @@
               <h2 class="card__ttl">S-GROOVE2021新卒採用</h2>
               <p class="card__tag card__tag--renew">改修</p>
             </div>
-            <ul class="card__dataList">
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクト期間</p>
-                <p class="card__dataVal">1ヶ月</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクトチーム</p>
-                <p class="card__dataVal">ディレクター1名 / アートディレクター1名/<br>デザイナー1名 / エンジニア1名</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">担当</p>
-                <p class="card__dataVal">フロント実装</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">言語</p>
-                <p class="card__dataVal">HTML / CSS(Sass) / JavaScript</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">フレームワーク</p>
-                <p class="card__dataVal">Vue.js</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">バージョン管理</p>
-                <p class="card__dataVal">Bitbucket</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">ツール</p>
-                <p class="card__dataVal">Photoshop / InVision / Zeplin</p>
-              </li>
-            </ul>
-          </a>
+          </router-link>
         </article>
         <article class="card__card">
-          <a href="https://www.cigr.co.jp/mp/" target="_blank" class="card__link">
+          <router-link to="/worksDetail02" class="card__link">
             <div class="card__imgWrap">
               <img src="../assets/imgs/img-midpoint.jpg" alt="" class="card__img" />
             </div>
@@ -52,40 +22,10 @@
               <h2 class="card__ttl">MID POINT</h2>
               <p class="card__tag">リニューアル</p>
             </div>
-            <ul class="card__dataList">
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクト期間</p>
-                <p class="card__dataVal">3ヶ月</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクトチーム</p>
-                <p class="card__dataVal">ディレクター1名 / アートディレクター1名/<br>デザイナー1名 / エンジニア3名</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">担当</p>
-                <p class="card__dataVal">設計 / 環境構築  / 技術選定 / コンポーネント作成 /<br> ドキュメント作成</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">言語</p>
-                <p class="card__dataVal">HTML（EJS） / CSS(Sass) / JavaScript</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">タスクランナー</p>
-                <p class="card__dataVal">Gulp / Webpack</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">バージョン管理</p>
-                <p class="card__dataVal">Bitbucket</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">ツール</p>
-                <p class="card__dataVal">Sketch / InVision / Zeplin</p>
-              </li>
-            </ul>
-          </a>
+          </router-link>
         </article>
         <article class="card__card">
-          <a href="https://zjhghjnlzbghh-portfolio-03.herokuapp.com/dev/index.html" target="_blank" class="card__link">
+          <router-link to="/worksDetail03" class="card__link">
             <div class="card__imgWrap">
               <img src="../assets/imgs/img-nakano.jpg" alt="" class="card__img" />
             </div>
@@ -93,36 +33,10 @@
               <h2 class="card__ttl">デュオアベニュー中野哲学堂公園</h2>
               <p class="card__tag">新規</p>
             </div>
-            <ul class="card__dataList">
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクト期間</p>
-                <p class="card__dataVal">1.5ヶ月</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクトチーム</p>
-                <p class="card__dataVal">ディレクター1名 / アートディレクター1名<br>デザイナー1名 / エンジニア2名</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">担当</p>
-                <p class="card__dataVal">フロント実装</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">言語</p>
-                <p class="card__dataVal">HTML（EJS） / CSS(Sass) / JavaScript</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">バージョン管理</p>
-                <p class="card__dataVal">Bitbucket</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">ツール</p>
-                <p class="card__dataVal">Photoshop / Prepros / Zeplin</p>
-              </li>
-            </ul>
-          </a>
+          </router-link>
         </article>
         <article class="card__card">
-          <a href="https://zjhghjnlzbghh-portfolio-01.herokuapp.com/dev/index.html" target="_blank" class="card__link">
+          <router-link to="/worksDetail04" class="card__link">
             <div class="card__imgWrap">
               <img src="../assets/imgs/img-kinuta.jpg" alt="" class="card__img" />
             </div>
@@ -130,40 +44,10 @@
               <h2 class="card__ttl">プラウドシーズン世田谷砧</h2>
               <p class="card__tag">新規</p>
             </div>
-            <ul class="card__dataList">
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクト期間</p>
-                <p class="card__dataVal">2ヶ月</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクトチーム</p>
-                <p class="card__dataVal">ディレクター2名 / デザイナー1名 / <br>エンジニア1名</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">担当</p>
-                <p class="card__dataVal">設計 / 環境構築  / コンポーネント作成 /<br>ドキュメント作成 / フロント実装</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">言語</p>
-                <p class="card__dataVal">HTML / CSS（Sass） / JavaScript</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">バージョン管理</p>
-                <p class="card__dataVal">Subversion</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">ツール</p>
-                <p class="card__dataVal">Photoshop / Prepros / Zeplin</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">リポジトリ</p>
-                <object class="card__dataVal"><a href="https://bitbucket.org/akihiko_machii/portfolio_01/src/master/" target="_blank" class="card__dataLink">bitbucket.org/akihiko_machii/portfolio_01/ </a></object>
-              </li>
-            </ul>
-          </a>
+          </router-link>
         </article>
         <article class="card__card">
-          <a href="http://www.casselini-online.com/feature/19ss-collaboration-vo1-02/" target="_blank" class="card__link">
+          <router-link to="/worksDetail05" class="card__link">
             <div class="card__imgWrap">
               <img src="../assets/imgs/img-casselini.jpg" alt="" class="card__img" />
             </div>
@@ -171,40 +55,10 @@
               <h2 class="card__ttl">キャセリーニ LP</h2>
               <p class="card__tag">新規</p>
             </div>
-            <ul class="card__dataList">
-              <li class="card__dataItem">
-                <p class="card__dataKey">実装期間</p>
-                <p class="card__dataVal">1.5日</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">担当</p>
-                <p class="card__dataVal">フロント実装 / CMS組み込み</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">言語</p>
-                <p class="card__dataVal">HTML（EJS） / CSS(Sass) / JavaScript</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">タスクランナー</p>
-                <p class="card__dataVal">Gulp / Webpack</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">CMS</p>
-                <p class="card__dataVal">WordPress</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">バージョン管理</p>
-                <p class="card__dataVal">bitbucket</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">ツール</p>
-                <p class="card__dataVal">Photoshop / Zeplin</p>
-              </li>
-            </ul>
-          </a>
+          </router-link>
         </article>
         <article class="card__card">
-          <a href="https://zjhghjnlzbghh-portfolio-02.herokuapp.com/dev/index.html" target="_blank" class="card__link">
+          <router-link to="/worksDetail06" class="card__link">
             <div class="card__imgWrap">
               <img src="../assets/imgs/img-ikegami.jpg" alt="" class="card__img" />
             </div>
@@ -212,40 +66,10 @@
               <h2 class="card__ttl">プラウド池上</h2>
               <p class="card__tag">新規</p>
             </div>
-            <ul class="card__dataList">
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクト期間</p>
-                <p class="card__dataVal">1.5月</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクトチーム</p>
-                <p class="card__dataVal">ディレクター1名 / アートディレクター1名/<br>デザイナー1名 / エンジニア2名</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">担当</p>
-                <p class="card__dataVal">設計 / 環境構築  / コンポーネント作成 /<br> ドキュメント作成</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">言語</p>
-                <p class="card__dataVal">HTML / CSS（Stylus） / JavaScript</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">バージョン管理</p>
-                <p class="card__dataVal">Bitbucket / Subversion</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">ツール</p>
-                <p class="card__dataVal">Photoshop / Prepros / Zeplin</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">リポジトリ</p>
-                <object class="card__dataVal"><a href="https://bitbucket.org/akihiko_machii/portfolio_02/src/master/" target="_blank" class="card__dataLink">bitbucket.org/akihiko_machii/portfolio_02/ </a></object>
-              </li>
-            </ul>
-          </a>
+          </router-link>
         </article>
         <article class="card__card">
-          <a href="https://thg.ne.jp/" target="_blank" class="card__link">
+          <router-link to="/worksDetail07" class="card__link">
             <div class="card__imgWrap">
               <img src="../assets/imgs/img-toho.jpg" alt="" class="card__img" />
             </div>
@@ -253,39 +77,9 @@
               <h2 class="card__ttl">東宝ハウス</h2>
               <p class="card__tag">リニューアル</p>
             </div>
-            <ul class="card__dataList">
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクト期間</p>
-                <p class="card__dataVal">2.5ヶ月</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">プロジェクトチーム</p>
-                <p class="card__dataVal">ディレクター1名 / デザイナー1名/<br>エンジニア2名</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">担当</p>
-                <p class="card__dataVal">フロント実装 / CMS組み込み</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">言語</p>
-                <p class="card__dataVal">HTML / CSS / JavaScript / PHP</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">CMS</p>
-                <p class="card__dataVal">Movavel Type</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">バージョン管理</p>
-                <p class="card__dataVal">Subversion</p>
-              </li>
-              <li class="card__dataItem">
-                <p class="card__dataKey">ツール</p>
-                <p class="card__dataVal">Photoshop</p>
-              </li>
-            </ul>
-          </a>
+          </router-link>
         </article>
-      <p class="works__cap">※現在プロモーションが終了しているサイトにのみ、リポジトリへのリンクを掲載しています。</p>
+      <!-- <p class="works__cap">※現在プロモーションが終了しているサイトにのみ、リポジトリへのリンクを掲載しています。</p> -->
       </div>
   </div>
 </template>
@@ -369,7 +163,7 @@ export default {
 	&__link {
     display: block;
     height: 100%;
-    padding: 20px;
+    padding: 20px 20px 40px;
     position: relative;
 
     &:after {
@@ -408,7 +202,8 @@ export default {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 20px 0;
+    justify-content: center;
+    margin: 40px 0 0;
   }
 
   &__ttl {
